@@ -1,0 +1,34 @@
+version: "3.6"
+
+services:
+  phpfpm:
+    build:
+      context: ./docker/phpfpm
+    volumes:
+      - .:/var/www/app
+    depends_on:
+      - db
+  nginx:
+    build: ./docker/nginx
+    volumes:
+      - ./docker/nginx/sites:/etc/nginx/sites-available
+      - ./:/var/www/app
+    depends_on:
+      - phpfpm
+  db:
+    image: mysql:5.7
+    volumes:
+      - dbdata:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=modarresi
+      - MYSQL_USER=modarresi
+      - MYSQL_PASSWORD=modarresi
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    depends_on:
+      - db
+
+
+volumes:
+  dbdata: ~
