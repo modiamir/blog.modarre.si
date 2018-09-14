@@ -1,5 +1,5 @@
 uuid: 05c88743-253d-4231-ad4f-4a8df0499cf5
-name: 'Amir Modarresi''s Website'
+name: 'Amir Modarresi''s Blog'
 mail: amir@modarre.si
 slogan: ''
 page:
@@ -12,3 +12,4 @@ langcode: en
 default_langcode: en
 _core:
   default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+mail_notification: ''
