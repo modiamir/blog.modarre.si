@@ -1,0 +1,4 @@
+table.cke_dialog_contents textarea {
+  direction: ltr !important;
+  text-align: left !important;
+}

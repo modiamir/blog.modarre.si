@@ -1,0 +1,4 @@
+ckeditor-codesnippet-rtl:
+  css:
+    theme:
+      css/ckeditor-codesnippet-rtl.css: {}

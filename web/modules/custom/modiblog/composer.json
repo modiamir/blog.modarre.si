@@ -1,0 +1,14 @@
+{
+  "name": "drupal/modiblog",
+  "type": "drupal-module",
+  "description": "My Awesome Module",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/modiblog",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/modiblog",
+    "source": "http://cgit.drupalcode.org/modiblog"
+  },
+  "require": { }
+}
