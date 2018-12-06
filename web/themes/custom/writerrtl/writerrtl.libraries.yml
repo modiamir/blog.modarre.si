@@ -34,10 +34,6 @@ zebra-snippets:
 
 global-assets-rtl:
   css:
-    base:
-      '//fonts.googleapis.com/css?family=Mirza:400,500,600,700':
-        type: external
-        minified: true
     theme:
       css/style-rtl.css: {}
   js:
