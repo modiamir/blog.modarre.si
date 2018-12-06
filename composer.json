@@ -21,6 +21,8 @@
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/bootstrap_library": "^1.11",
         "drupal/captcha": "^1.0@beta",
+        "drupal/ckeditor_bidi": "^2.1",
+        "drupal/codesnippet": "^1.6",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
         "drupal/devel": "^1.2",

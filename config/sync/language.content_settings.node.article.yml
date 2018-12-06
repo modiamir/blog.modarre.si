@@ -1,0 +1,11 @@
+uuid: f68f93e7-7386-45df-acda-62f16bafb06e
+langcode: fa
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article
+target_entity_type_id: node
+target_bundle: article
+default_langcode: current_interface
+language_alterable: true
