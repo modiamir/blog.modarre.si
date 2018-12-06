@@ -935,3 +935,11 @@ ul.menu a.is-active {
 .clearfix {
   zoom: 1;
 }
+
+
+code {
+  border: solid 2px lightgrey;
+  border-radius: 4px;
+  direction: ltr;
+  text-align: left;
+}
