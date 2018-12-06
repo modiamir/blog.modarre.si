@@ -177,7 +177,7 @@ html {
 body {
   background-color: #f7f7f7; /* Nearly white */
   color: #292929; /* Nearly black */
-  font-family: 'Markazi Text', 'Merriweather', 'Palatino Linotype', 'Book Antiqua', Palatino,
+  font-family: 'Mirza', 'Merriweather', 'Palatino Linotype', 'Book Antiqua', Palatino,
     serif;
 }
 
@@ -303,7 +303,7 @@ td {
 
 .messages,
 .error {
-  font-family: 'Lato', Helvetica, sans-serif;
+  font-family: 'Mirza', 'Lato', Helvetica, sans-serif;
 }
 
 /**
@@ -320,7 +320,7 @@ input[type='date'],
 input[type='time'],
 input[type='datalist'],
 textarea {
-  font-family: 'Lato', Helvetica, sans-serif;
+  font-family: 'Mirza', 'Lato', Helvetica, sans-serif;
   font-size: 0.8em;
   border: 1px solid #ccc;
   padding: 3px 5px;
@@ -328,7 +328,7 @@ textarea {
 .form-submit {
   background: #aaa;
   border: 1px solid #aaa;
-  font-family: 'Lato', Helvetica, sans-serif;
+  font-family: 'Mirza', 'Lato', Helvetica, sans-serif;
   font-size: 0.8em;
   font-weight: bold;
   color: white;
@@ -358,7 +358,7 @@ textarea {
   display: none;
 }
 .search-block-form input {
-  font-family: 'Lato', Helvetica, sans-serif;
+  font-family: 'Mirza', 'Lato', Helvetica, sans-serif;
   font-size: 0.62em;
 }
 .search-block-form .form-search {
@@ -406,7 +406,7 @@ textarea {
 
 #site-name a {
   color: #888888;
-  font-family: 'Lato', Helvetica, sans-serif;
+  font-family: 'Mirza', 'Lato', Helvetica, sans-serif;
   font-size: 1em;
   line-height: 1em;
   text-decoration: none;
@@ -415,7 +415,7 @@ textarea {
 
 #site-slogan {
   color: #888888;
-  font-family: 'Lato', Helvetica, sans-serif;
+  font-family: 'Mirza', 'Lato', Helvetica, sans-serif;
   font-size: 0.62em;
   font-weight: normal;
   text-transform: uppercase;
@@ -483,7 +483,7 @@ header nav li {
 header nav a {
   color: #888888;
   display: block;
-  font-family: 'Lato', Helvetica, sans-serif;
+  font-family: 'Mirza', 'Lato', Helvetica, sans-serif;
   font-size: 0.62em;
   margin-bottom: 4px;
   padding-bottom: 6px;
@@ -523,7 +523,7 @@ header nav li {
 .writer-date {
   color: #888888;
   display: block;
-  font-family: 'Lato', Helvetica, sans-serif;
+  font-family: 'Mirza', 'Lato', Helvetica, sans-serif;
   font-weight: 700;
   right: -190px;
   line-height: 1.2em;
@@ -617,7 +617,7 @@ article.not-page {
 }
 
 .foot-wrap {
-  font-family: 'Lato', Helvetica, sans-serif;
+  font-family: 'Mirza', 'Lato', Helvetica, sans-serif;
   font-size: 0.62em;
   padding-top: 15px;
   text-decoration: none;
@@ -753,7 +753,7 @@ ul.menu a.is-active {
     /* Styles for toggle button */
     color: #888;
     display: block;
-    font-family: 'Lato', Helvetica, sans-serif;
+    font-family: 'Mirza', 'Lato', Helvetica, sans-serif;
     font-size: 0.62em;
     font-weight: normal;
     margin: 0 0 -1px;
