@@ -1,0 +1,22 @@
+uuid: 9c97c69e-f1a6-4c0e-b35d-33e853eb78ce
+langcode: en
+status: true
+dependencies:
+  theme:
+    - writerrtl
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: writerrtl_local_tasks
+theme: writerrtl
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

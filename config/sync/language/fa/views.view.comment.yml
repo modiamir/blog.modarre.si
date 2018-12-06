@@ -1,0 +1,78 @@
+label: دیدگاه‌ها
+display:
+  default:
+    display_title: مدیر
+    display_options:
+      exposed_form:
+        options:
+          submit_button: تایید
+          reset_button_label: بازنشانی
+          exposed_sorts_label: 'مرتب کن بر اساس'
+          sort_asc_label: صعودی
+          sort_desc_label: نزولی
+      pager:
+        options:
+          tags:
+            previous: '‹ قبلی'
+            next: 'بعدی ›'
+            first: '« ابتدا'
+            last: 'انتها »'
+          expose:
+            items_per_page_label: 'آیتم‌ها در هر صفحه'
+            items_per_page_options_all_label: '- همه -'
+            offset_label: جابجایی
+      fields:
+        comment_bulk_form:
+          action_title: عملکرد
+        subject:
+          label: موضوع
+        name:
+          label: نویسنده
+        entity_id:
+          label: 'ارسال شده در'
+        changed:
+          label: به‌روز
+        operations:
+          label: کارکردها
+      filters:
+        subject:
+          expose:
+            label: موضوع
+        langcode:
+          expose:
+            label: زبان
+      title: دیدگاه‌ها
+      empty:
+        area_text_custom:
+          content: 'هیچ دیدگاه‌هایی در دسترس نیست.'
+      use_more_text: بیشتر
+  page_published:
+    display_title: 'دیدگاه‌های منتشر شده'
+    display_options:
+      menu:
+        title: دیدگاه‌ها
+  page_unapproved:
+    display_title: 'دیدگاه‌های تایید نشده'
+    display_options:
+      menu:
+        title: 'دیدگاه‌های تایید نشده'
+      filters:
+        subject:
+          expose:
+            label: موضوع
+        langcode:
+          expose:
+            label: زبان
+      fields:
+        comment_bulk_form:
+          action_title: عملکرد
+        subject:
+          label: موضوع
+        name:
+          label: نویسنده
+        entity_id:
+          label: 'ارسال شده در'
+        changed:
+          label: به‌روز
+        operations:
+          label: کارکردها

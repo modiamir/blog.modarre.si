@@ -9,6 +9,7 @@ module:
   color: 0
   comment: 0
   config: 0
+  config_translation: 0
   contact: 0
   contextual: 0
   datetime: 0
@@ -22,7 +23,9 @@ module:
   help: 0
   history: 0
   image: 0
+  language: 0
   link: 0
+  locale: 0
   markdown: 0
   menu_ui: 0
   node: 0
@@ -42,6 +45,7 @@ module:
   user: 0
   views_ui: 0
   menu_link_content: 1
+  content_translation: 10
   views: 10
   standard: 1000
 theme:
@@ -50,6 +54,7 @@ theme:
   bartik: 0
   seven: 0
   writer: 0
+  writerrtl: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

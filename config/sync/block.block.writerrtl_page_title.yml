@@ -1,0 +1,20 @@
+uuid: 59d418bd-ee71-4c81-8af4-ae470ffe0a8a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - writerrtl
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: writerrtl_page_title
+theme: writerrtl
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

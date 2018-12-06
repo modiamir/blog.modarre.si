@@ -33,4 +33,5 @@ hidden:
   body: true
   comment: true
   field_tags: true
+  langcode: true
   links: true

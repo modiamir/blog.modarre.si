@@ -1,0 +1,22 @@
+uuid: 47a368c0-7b27-433c-bece-9f5826efd209
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - writerrtl
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: writerrtl_messages
+theme: writerrtl
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
